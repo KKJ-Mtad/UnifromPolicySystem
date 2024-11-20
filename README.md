@@ -1,6 +1,7 @@
 # UnifromPolicySystem
 For EventDriv
-## Wala pang SQL, StreamWriter palang!
-- note: run as admin if i-connect na sa SQL
-- using Microsoft.Data.SqlClient; // if may SQL na
-- string connString = "Data Source=.;Initial Catalog=//pangalang ng DataBase;Integrated Security=True;Trust Server Certificate=True";
+## NakaSQL na tong branch na to!
+- note: run as admin VisualStudio
+- Pag mag coconnect: check Trust Certificate kung may error na lalabas not trusted server
+- Create Database: UniformPolicyDB
+  string connString = "Data Source=.;Initial Catalog=UniformPolicyDB;Integrated Security=True;Trust Server Certificate=True";
